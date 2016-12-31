@@ -1,4 +1,4 @@
-package net.shadowfacts.largeveins;
+package net.shadowfacts.largeveins.util;
 
 import net.minecraft.block.properties.IProperty;
 import net.minecraft.block.state.IBlockState;

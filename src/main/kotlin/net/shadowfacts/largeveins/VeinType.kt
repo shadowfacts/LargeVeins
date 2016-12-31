@@ -6,6 +6,7 @@ import net.minecraft.block.state.IBlockState
 import net.minecraft.init.Blocks
 import net.minecraft.util.ResourceLocation
 import net.minecraftforge.fml.common.registry.ForgeRegistries
+import net.shadowfacts.largeveins.util.JavaUtils
 import java.lang.reflect.Type
 
 /**
