@@ -32,7 +32,6 @@ object WorldGenerator: IWorldGenerator {
 			WorldGenMinable(ore, size) {
 				toReplace === it
 			}.generate(world, random, pos)
-			LargeVeins.log.debug("Generated ${ore.block} at: $pos")
 		}
 	}
 

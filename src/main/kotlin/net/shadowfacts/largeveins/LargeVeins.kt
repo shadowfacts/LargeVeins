@@ -19,7 +19,6 @@ import java.io.File
 @Mod(modid = MOD_ID, name = NAME, version = "@VERSION@", dependencies = "required-after:shadowmc;", modLanguageAdapter = "net.shadowfacts.forgelin.KotlinAdapter")
 object LargeVeins {
 
-	val log = LogManager.getFormatterLogger("LargeVeins")
 	lateinit var store: VeinTypeStore
 		private set
 	val gson: Gson = GsonBuilder()
