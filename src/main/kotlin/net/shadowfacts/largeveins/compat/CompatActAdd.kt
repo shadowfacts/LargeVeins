@@ -15,8 +15,8 @@ object CompatActAdd: CompatHelper() {
 	@Compat.PostInit
 	fun postInit(event: FMLPostInitializationEvent) {
 		VeinTypeStore.defaultCompatHandlers.add {
-			val block = getBlock("actuallyadditions", "block_misc")
-			val state = getState(block.defaultState, "type", "ore_black_quartz")
+			val block = getBlock("actuallyadditions", "blockMisc")
+			val state = getState(block.defaultState, "meta", "3")
 			add(0, VeinType(state, 0, 45, 60, 5000))
 		}
 	}
