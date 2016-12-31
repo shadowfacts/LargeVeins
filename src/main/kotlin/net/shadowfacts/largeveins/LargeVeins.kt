@@ -10,6 +10,7 @@ import net.minecraftforge.fml.common.registry.GameRegistry
 import net.shadowfacts.largeveins.compat.CompatActAdd
 import net.shadowfacts.largeveins.compat.CompatSubstratum
 import net.shadowfacts.shadowmc.compat.CompatManager
+import org.apache.logging.log4j.LogManager
 import java.io.File
 
 /**
@@ -18,6 +19,7 @@ import java.io.File
 @Mod(modid = MOD_ID, name = NAME, version = "@VERSION@", dependencies = "required-after:shadowmc;", modLanguageAdapter = "net.shadowfacts.forgelin.KotlinAdapter")
 object LargeVeins {
 
+	val log = LogManager.getFormatterLogger("LargeVeins")
 	lateinit var store: VeinTypeStore
 		private set
 	val gson: Gson = GsonBuilder()
