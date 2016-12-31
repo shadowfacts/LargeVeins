@@ -4,7 +4,7 @@ import net.minecraft.block.Block
 import net.minecraft.block.state.IBlockState
 import net.minecraft.util.ResourceLocation
 import net.minecraftforge.fml.common.registry.ForgeRegistries
-import net.shadowfacts.largeveins.JavaUtils
+import net.shadowfacts.largeveins.util.JavaUtils
 
 /**
  * Helper functions so I don't have to hard-depend on anything
