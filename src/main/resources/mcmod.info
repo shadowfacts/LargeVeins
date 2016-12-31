@@ -1,0 +1,16 @@
+[
+	{
+	  "modid": "largeveins",
+	  "name": "Large Veins",
+	  "description": "Adds rare massive ore veins to the world.",
+	  "version": "${version}",
+	  "mcversion": "${mcversion}",
+	  "url": "http://github.com/shadowfacts/FavoritesTab",
+	  "updateUrl": "",
+	  "authorList": ["Shadowfacts"],
+	  "credits": "",
+	  "logoFile": "",
+	  "screenshots": [],
+	  "dependencies": []
+	}
+]
