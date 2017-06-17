@@ -14,7 +14,7 @@ import net.shadowfacts.largeveins.util.JavaUtils
 abstract class CompatHelper {
 
 	fun getBlock(modid: String, name: String): Block {
-		return ForgeRegistries.BLOCKS.getValue(ResourceLocation(modid, name))
+		return ForgeRegistries.BLOCKS.getValue(ResourceLocation(modid, name))!!
 	}
 
 	fun getState(state: IBlockState, propName: String, valueName: String): IBlockState {

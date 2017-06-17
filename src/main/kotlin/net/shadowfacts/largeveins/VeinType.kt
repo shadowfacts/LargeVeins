@@ -28,7 +28,7 @@ data class VeinType(val ore: IBlockState, val minY: Int, val maxY: Int, val size
 		}
 
 		private fun deserializeState(obj: JsonObject): IBlockState {
-			val block = ForgeRegistries.BLOCKS.getValue(ResourceLocation(obj["id"].asString))
+			val block = ForgeRegistries.BLOCKS.getValue(ResourceLocation(obj["id"].asString))!!
 			var state = block.defaultState
 			obj["state"].asJsonObject.entrySet().forEach { e ->
 				val prop = state.propertyKeys.first {
